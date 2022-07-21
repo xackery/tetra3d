@@ -84,7 +84,7 @@ func LoadGLTFData(data []byte, gltfLoadOptions *GLTFLoadOptions) (*Library, erro
 
 	var images []*ebiten.Image
 
-	exportedTextures := false
+	exportedTextures := true
 
 	type Collection struct {
 		Objects []string
