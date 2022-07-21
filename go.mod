@@ -8,3 +8,5 @@ require (
 	github.com/qmuntal/gltf v0.20.3
 	golang.org/x/image v0.0.0-20211028202545-6944b10bf410
 )
+
+replace github.com/solarlune/tetra3d => ./
