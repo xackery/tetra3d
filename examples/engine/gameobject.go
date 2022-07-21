@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/kvartborg/vector"
-	"github.com/solarlune/tetra3d"
+	"github.com/xackery/tetra3d"
 )
 
 // The concept here is that one can tie Go structs to Tetra3D nodes by designing an interface that directly

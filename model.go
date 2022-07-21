@@ -159,7 +159,7 @@ func (model *Model) modelAlreadyDynamicallyBatched(batchedModel *Model) bool {
 // rendering the batched models using the calling Model's first MeshPart's material. By dynamically batching models together, this allows us to
 // not flush between rendering multiple Models, saving a lot of render time, particularly if rendering many low-poly, individual models that have
 // very little variance (i.e. if they all share a single texture).
-// For more information, see this Wiki page on batching / merging: https://github.com/SolarLune/Tetra3d/wiki/Merging-and-Batching-Draw-Calls
+// For more information, see this Wiki page on batching / merging: https://github.com/xackery/tetra3d/wiki/Merging-and-Batching-Draw-Calls
 func (model *Model) DynamicBatchAdd(batchedModels ...*Model) error {
 
 	for _, other := range batchedModels {
@@ -231,7 +231,7 @@ func (model *Model) DynamicBatchTriangleCount() int {
 // (saving draw calls) based on maximum vertex count and shared materials (so to get any benefit from merging, ensure the merged models share materials; if they all have unique
 // materials, they will be turned into individual MeshParts, thereby forcing multiple draw calls). Also note that as the name suggests, this is static merging, which means that
 // after merging, the new vertices are static - part of the merging Model.
-// For more information, see this Wiki page on batching / merging: https://github.com/SolarLune/Tetra3d/wiki/Merging-and-Batching-Draw-Calls
+// For more information, see this Wiki page on batching / merging: https://github.com/xackery/tetra3d/wiki/Merging-and-Batching-Draw-Calls
 func (model *Model) Merge(models ...*Model) {
 
 	totalSize := 0

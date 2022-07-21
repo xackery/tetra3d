@@ -2,7 +2,7 @@ package colors
 
 // package colors contains functions to quickly and easily generate tetra3d.Color instances by name (i.e. "White()", "Blue()", "Green()", etc).
 
-import "github.com/solarlune/tetra3d"
+import "github.com/xackery/tetra3d"
 
 // White generates a tetra3d.Color instance of the provided name.
 func White() *tetra3d.Color {

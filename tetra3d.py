@@ -12,7 +12,7 @@ bl_info = {
     "category" : "Gamedev",
     "version" : (0, 2),
     "support" : "COMMUNITY",
-    "doc_url" : "https://github.com/SolarLune/Tetra3d/wiki/Blender-Addon",
+    "doc_url" : "https://github.com/xackery/tetra3d/wiki/Blender-Addon",
 }
 
 boundsTypes = [

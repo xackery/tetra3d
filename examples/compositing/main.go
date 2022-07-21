@@ -13,8 +13,8 @@ import (
 	_ "embed"
 
 	"github.com/kvartborg/vector"
-	"github.com/solarlune/tetra3d"
-	"github.com/solarlune/tetra3d/colors"
+	"github.com/xackery/tetra3d"
+	"github.com/xackery/tetra3d/colors"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"

@@ -8,9 +8,9 @@
 
 ![Dark exploration](https://thumbs.gfycat.com/ScalySlimCrayfish-size_restricted.gif)
 
-[Tetra3D Docs](https://pkg.go.dev/github.com/solarlune/tetra3d) / [Tetra3D Wiki](https://github.com/SolarLune/Tetra3d/wiki)
+[Tetra3D Docs](https://pkg.go.dev/github.com/xackery/tetra3d) / [Tetra3D Wiki](https://github.com/xackery/tetra3d/wiki)
 
-[Quickstart Project Repo](https://github.com/SolarLune/tetra3d-quickstart)
+[Quickstart Project Repo](https://github.com/xackery/tetra3d-quickstart)
 
 ## Support
 
@@ -24,7 +24,7 @@ Tetra's rendering evokes a similar feeling to primitive 3D game consoles like th
 
 In general, Tetra3D's just a renderer, so you can target higher resolutions (like 1080p or 4K) _or_ lower resolutions. Anything's fine as long as the target GPU can handle generating the color and depth textures at your desired resolution (assuming you have depth texture rendering on).
 
-Tetra3D also gives you a Blender add-on to make the Blender > Tetra3D development process flow a bit smoother. See the Releases section for the add-on, and [this wiki page](https://github.com/SolarLune/Tetra3d/wiki/Blender-Addon) for more information.
+Tetra3D also gives you a Blender add-on to make the Blender > Tetra3D development process flow a bit smoother. See the Releases section for the add-on, and [this wiki page](https://github.com/xackery/tetra3d/wiki/Blender-Addon) for more information.
 
 ## Why did I make it?
 
@@ -40,11 +40,11 @@ Because it's like a [tetrahedron](https://en.wikipedia.org/wiki/Tetrahedron), a 
 
 ## How do you get it?
 
-`go get github.com/solarlune/tetra3d`
+`go get github.com/xackery/tetra3d`
 
 Tetra depends on kvartborg's [vector](https://github.com/kvartborg/vector) package, and [Ebiten](https://ebiten.org/) itself for rendering. Tetra3D requires Go v1.16 or above. This minimum required version is somewhat arbitrary, as it could run on an older Go version if a couple of functions (primarily the ones that loads data from a file directly) were changed.
 
-The Blender add-on is not required, but is provided as well, and can be downloaded from the releases page or from the repo directly (i.e. click on the file and download it). The add-on provides some useful helper functionality that makes using Tetra3D simpler - for more information, check the [Wiki](https://github.com/SolarLune/Tetra3d/wiki/Blender-Addon).
+The Blender add-on is not required, but is provided as well, and can be downloaded from the releases page or from the repo directly (i.e. click on the file and download it). The add-on provides some useful helper functionality that makes using Tetra3D simpler - for more information, check the [Wiki](https://github.com/xackery/tetra3d/wiki/Blender-Addon).
 
 ## How do you use it?
 
@@ -61,7 +61,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/solarlune/tetra3d"
+	"github.com/xackery/tetra3d"
 	"github.com/hajimehoshi/ebiten/v2"
 )
 
@@ -238,9 +238,9 @@ That's basically it.
 
 Note that Tetra3D is, indeed, a work-in-progress and so will require time to get to a good state. But I feel like it works pretty well as is. Feel free to examine the examples folder for some examples showing how Tetra3D works. Calling `go run .` from within their directories should work.
 
-There's a quick start project repo available [here](https://github.com/SolarLune/tetra3d-quickstart), as well to help with getting started.
+There's a quick start project repo available [here](https://github.com/xackery/tetra3d-quickstart), as well to help with getting started.
 
-For more information, check out the [Wiki](https://github.com/SolarLune/Tetra3d/wiki) for tips and tricks.
+For more information, check out the [Wiki](https://github.com/xackery/tetra3d/wiki) for tips and tricks.
 
 ## What's missing?
 
